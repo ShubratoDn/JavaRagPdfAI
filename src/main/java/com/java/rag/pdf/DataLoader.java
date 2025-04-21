@@ -22,7 +22,8 @@ public class DataLoader {
     private final JdbcClient jdbcClient;
 
 //    @Value("classpath:/waiver-policy2022.pdf")
-    @Value("classpath:/sol_support.pdf")
+//    @Value("classpath:/sol_support.pdf")
+    @Value("classpath:/DBMS.pdf")
     private Resource pdfResource;
 
     public DataLoader(VectorStore vectorStore, JdbcClient jdbcClient) {
